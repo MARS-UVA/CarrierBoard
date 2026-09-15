@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "CarrierBoard")(type "KiCad")(uri "${KIPRJMOD}/libraries/CarrierBoard.kicad_sym")(options "")(descr "Project connector symbols (TE 5-520315-x)"))
+)
