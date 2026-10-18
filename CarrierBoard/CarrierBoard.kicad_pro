@@ -658,13 +658,18 @@
       {
         "filename": "CarrierBoard.kicad_sch",
         "name": "CarrierBoard",
-        "uuid": "00000000-0000-0000-0000-000000000000"
+        "uuid": "caaf916b-17a0-49cc-ac37-a3c594d52848"
       }
     ],
-    "used_designators": "",
+    "used_designators": "U1-4,#PWR1-8",
     "variants": []
   },
-  "sheets": [],
+  "sheets": [
+    [
+      "caaf916b-17a0-49cc-ac37-a3c594d52848",
+      "CarrierBoard"
+    ]
+  ],
   "text_variables": {},
   "tuning_profiles": {
     "meta": {
