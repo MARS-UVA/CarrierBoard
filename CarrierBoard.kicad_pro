@@ -661,7 +661,7 @@
         "uuid": "caaf916b-17a0-49cc-ac37-a3c594d52848"
       }
     ],
-    "used_designators": "#PWR11",
+    "used_designators": "#PWR12-15",
     "variants": []
   },
   "sheets": [
