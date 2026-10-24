@@ -2469,6 +2469,16 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 121.92) (xy 88.9 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1cc3c32b-00a4-446b-9bf1-246f69dd8de4")
+	)
+	(wire
+		(pts
 			(xy 76.2 147.32) (xy 73.66 147.32)
 		)
 		(stroke
@@ -2569,6 +2579,16 @@
 	)
 	(wire
 		(pts
+			(xy 73.66 121.92) (xy 88.9 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43f9d1e1-11d3-4472-b56e-dc4476ba31cf")
+	)
+	(wire
+		(pts
 			(xy 76.2 149.86) (xy 76.2 147.32)
 		)
 		(stroke
@@ -2586,6 +2606,16 @@
 			(type default)
 		)
 		(uuid "494a79a4-0921-42ed-a462-f550bd1ad9af")
+	)
+	(wire
+		(pts
+			(xy 88.9 93.98) (xy 93.98 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "513ce322-45d4-435b-92bc-1d328b66877f")
 	)
 	(wire
 		(pts
@@ -2946,16 +2976,6 @@
 			(type default)
 		)
 		(uuid "cbb3571d-6389-4235-8bb2-0a57b2fde527")
-	)
-	(wire
-		(pts
-			(xy 73.66 121.92) (xy 93.98 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cc598297-c0a1-4551-b315-422aaf3b5aaa")
 	)
 	(wire
 		(pts
@@ -3674,7 +3694,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CarrierBoard:Untitled"
+		(property "Footprint" "CarrierBoard:Adafruit BNO055"
 			(at 63.5 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -3856,7 +3876,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "CarrierBoard:Adafruit INA219"
 			(at 58.42 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -4182,7 +4202,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "CarrierBoard:SparkFun MAX-M10S"
 			(at 58.42 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -4268,7 +4288,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ESP32-S3-DEVKITC-1U-N8R8:MODULE_ESP32-S3-DEVKITC-1U-N8R8"
+		(property "Footprint" "CarrierBoard:ESP32-S3-DEVKITC-1U-N8R8"
 			(at 116.84 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -4546,7 +4566,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "CarrierBoard:TE Connectivity 5-103639-8"
 			(at 55.88 91.44 0)
 			(hide yes)
 			(show_name no)
