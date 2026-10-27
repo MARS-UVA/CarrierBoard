@@ -2926,6 +2926,17 @@
 		(layer "Edge.Cuts")
 		(uuid "529e8c75-2d1b-4c44-8df2-cfffe5118e84")
 	)
+	(gr_text "New product from\nMARS Super Intelligence Team\n"
+		(at 55.5 99.2 0)
+		(layer "F.SilkS")
+		(uuid "03053fa7-c163-4ed7-bd56-d1632b269036")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
 	(segment
 		(start 102 67)
 		(end 106 71)
