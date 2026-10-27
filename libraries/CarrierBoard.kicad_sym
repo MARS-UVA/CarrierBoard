@@ -3161,7 +3161,7 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "U"
-			(at 3.302 3.048 0)
+			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3170,7 +3170,7 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "Adafruit BNO-055"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3226,43 +3226,7 @@
 		)
 		(symbol "Adafruit BNO055 MillMax Pins_0_0"
 			(pin power_in line
-				(at 0 0 0)
-				(length 2.54)
-				(name "Vin"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_out line
-				(at 0 -2.54 0)
-				(length 2.54)
-				(name "3vo"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 0 -5.08 0)
+				(at 0 -11.43 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -3280,7 +3244,7 @@
 				)
 			)
 			(pin input line
-				(at 0 -7.62 0)
+				(at -8.89 1.27 0)
 				(length 2.54)
 				(name "SDA"
 					(effects
@@ -3298,7 +3262,7 @@
 				)
 			)
 			(pin input line
-				(at 0 -10.16 0)
+				(at -8.89 -1.27 0)
 				(length 2.54)
 				(name "SCL"
 					(effects
@@ -3316,7 +3280,7 @@
 				)
 			)
 			(pin input line
-				(at 0 -12.7 0)
+				(at -8.89 -5.08 0)
 				(length 2.54)
 				(name "RST"
 					(effects
@@ -3334,7 +3298,7 @@
 				)
 			)
 			(pin input line
-				(at 17.78 -2.54 180)
+				(at 8.89 3.81 180)
 				(length 2.54)
 				(name "PS0"
 					(effects
@@ -3352,7 +3316,7 @@
 				)
 			)
 			(pin input line
-				(at 17.78 -5.08 180)
+				(at 8.89 1.27 180)
 				(length 2.54)
 				(name "PS1"
 					(effects
@@ -3370,7 +3334,7 @@
 				)
 			)
 			(pin output line
-				(at 17.78 -7.62 180)
+				(at 8.89 -1.27 180)
 				(length 2.54)
 				(name "INT"
 					(effects
@@ -3388,7 +3352,7 @@
 				)
 			)
 			(pin output line
-				(at 17.78 -10.16 180)
+				(at 8.89 -3.81 180)
 				(length 2.54)
 				(name "ADR"
 					(effects
@@ -3406,10 +3370,102 @@
 				)
 			)
 		)
+		(symbol "Adafruit BNO055 MillMax Pins_1_0"
+			(pin power_in line
+				(at -46.99 7.62 270)
+				(length 2.54)
+				(name "V_{in}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 1.27 11.43 270)
+				(length 2.54)
+				(name "5V"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at -44.45 7.62 270)
+				(length 2.54)
+				(name "3V_{out}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at -41.91 7.62 270)
+				(length 2.54)
+				(name "SDA"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at -1.27 11.43 270)
+				(length 2.54)
+				(name "3V3_{O}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Adafruit BNO055 MillMax Pins_1_1"
 			(rectangle
-				(start 2.54 1.27)
-				(end 15.24 -13.97)
+				(start -6.35 8.89)
+				(end 6.35 -8.89)
 				(stroke
 					(width 0)
 					(type solid)
