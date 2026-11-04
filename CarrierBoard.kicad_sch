@@ -7500,7 +7500,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ESP32-S3-DEVKITC-1U-N8R8:MODULE_ESP32-S3-DEVKITC-1U-N8R8"
+		(property "Footprint" "CarrierBoard:ESP32-S3-DEVKITC-1U-N8R8"
 			(at 118.11 68.58 0)
 			(hide yes)
 			(show_name no)
