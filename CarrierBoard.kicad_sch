@@ -4451,16 +4451,6 @@
 		)
 		(uuid "0112b342-349b-4887-9539-5d8bae6f0d81")
 	)
-	(label "CAN_H"
-		(at 50.8 86.36 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "02a91e99-4a5c-4c0d-9d45-8bd14e487696")
-	)
 	(label "CAN_RX"
 		(at 152.4 68.58 0)
 		(effects
@@ -4480,16 +4470,6 @@
 			(justify left bottom)
 		)
 		(uuid "07bb4d8b-f701-4a73-99dc-9d1e3dcb8b6b")
-	)
-	(label "CAN_H"
-		(at 50.8 170.18 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0e0e5300-cfed-424b-b4a9-0b17d8f08b85")
 	)
 	(label "SPI2_SCK"
 		(at 259.08 107.95 0)
@@ -4521,6 +4501,16 @@
 		)
 		(uuid "1fe28099-c0ec-408e-beca-27bf12b34309")
 	)
+	(label "CAN_P"
+		(at 50.8 144.78 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "24f726db-7ee1-499b-b1e2-70238fd7c52a")
+	)
 	(label "SPI2_MISO"
 		(at 259.08 110.49 0)
 		(effects
@@ -4530,16 +4520,6 @@
 			(justify left bottom)
 		)
 		(uuid "27de5178-f2fd-4802-b8da-e58216c37a9d")
-	)
-	(label "CAN_H"
-		(at 50.8 114.3 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2e0608ec-caa0-4fa8-80c2-8eac82c3d453")
 	)
 	(label "SPI2_SCK"
 		(at 259.08 76.2 0)
@@ -4571,7 +4551,7 @@
 		)
 		(uuid "4a1cd30d-a0d7-4d37-9028-b924a660471e")
 	)
-	(label "CAN_H"
+	(label "CAN_P"
 		(at 59.69 43.18 0)
 		(effects
 			(font
@@ -4581,7 +4561,7 @@
 		)
 		(uuid "4a30458f-19e1-4ffb-b4bc-ce9bddec6f17")
 	)
-	(label "SPI2_CS_2"
+	(label "SPI2_CS_3"
 		(at 259.08 71.12 0)
 		(effects
 			(font
@@ -4631,7 +4611,7 @@
 		)
 		(uuid "6f08a151-fd36-4f11-a06a-ab1c4deced93")
 	)
-	(label "SPI2_CS_1"
+	(label "SPI2_CS_4"
 		(at 259.08 39.37 0)
 		(effects
 			(font
@@ -4671,17 +4651,7 @@
 		)
 		(uuid "94c204b2-1402-4ce7-a1b1-9f76323212ed")
 	)
-	(label "CAN_H"
-		(at 50.8 142.24 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "987639c2-7ac7-4f97-b763-9a4c60af00cd")
-	)
-	(label "CAN_L"
+	(label "CAN_N"
 		(at 59.69 45.72 0)
 		(effects
 			(font
@@ -4691,15 +4661,25 @@
 		)
 		(uuid "9ec9469c-1246-42fc-bc7f-25e36fbc277c")
 	)
-	(label "CAN_L"
-		(at 50.8 116.84 0)
+	(label "CAN_N"
+		(at 50.8 170.18 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "a0d08ae5-33f8-47c2-8efd-7f314d0b7e70")
+		(uuid "a1b5af2c-be06-46ce-9b5f-a372d7b60bc2")
+	)
+	(label "CAN_N"
+		(at 50.8 142.24 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a87ccab3-fd44-48bb-b914-148de2299ef9")
 	)
 	(label "SPI2_MOSI"
 		(at 259.08 41.91 0)
@@ -4721,15 +4701,15 @@
 		)
 		(uuid "adbd27f3-7df2-4797-9358-cdf4d1af22af")
 	)
-	(label "CAN_L"
-		(at 50.8 172.72 0)
+	(label "CAN_N"
+		(at 50.8 116.84 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "ae563312-43cf-4f25-83ed-1b8f44863f23")
+		(uuid "b1791e3b-ea53-4443-8ba4-84a0d40debd5")
 	)
 	(label "CAN_TX"
 		(at 36.83 45.72 180)
@@ -4741,6 +4721,16 @@
 		)
 		(uuid "b27b64a1-a41a-4372-9382-4438f0d2a420")
 	)
+	(label "CAN_N"
+		(at 50.8 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b2a949bb-a097-4229-994c-f3b440ecf05e")
+	)
 	(label "SPI2_SCK"
 		(at 106.68 81.28 180)
 		(effects
@@ -4751,7 +4741,7 @@
 		)
 		(uuid "b59731b2-ebbb-483d-8caa-d81b32868986")
 	)
-	(label "SPI2_CS_3"
+	(label "SPI2_CS_2"
 		(at 259.08 102.87 0)
 		(effects
 			(font
@@ -4770,16 +4760,6 @@
 			(justify right bottom)
 		)
 		(uuid "c4837a88-54f6-482a-9e27-385bbebb5749")
-	)
-	(label "CAN_L"
-		(at 50.8 88.9 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c676ba85-3477-4612-a74d-5e5e4c0ddeff")
 	)
 	(label "SPI2_SCK"
 		(at 259.08 44.45 0)
@@ -4831,6 +4811,16 @@
 		)
 		(uuid "de817a58-2ca5-4226-a902-c4b7f46459c0")
 	)
+	(label "CAN_P"
+		(at 50.8 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e24391d7-2c5f-42d2-8e8b-c94f1da481b5")
+	)
 	(label "SPI2_MISO"
 		(at 259.08 142.24 0)
 		(effects
@@ -4851,6 +4841,16 @@
 		)
 		(uuid "e97bd3e6-e2ea-4e77-9966-177415e3a3d6")
 	)
+	(label "CAN_P"
+		(at 50.8 172.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "eabbee69-fd04-4ad7-a2ff-4808e9b05b4f")
+	)
 	(label "I2C_SDA"
 		(at 208.28 95.25 0)
 		(effects
@@ -4861,7 +4861,7 @@
 		)
 		(uuid "ec4a6ec8-455c-44e3-ac91-0326129fb6b7")
 	)
-	(label "SPI2_CS_4"
+	(label "SPI2_CS_1"
 		(at 259.08 134.62 0)
 		(effects
 			(font
@@ -4881,6 +4881,16 @@
 		)
 		(uuid "f20ec9f8-9ffc-4f8d-a6bc-62e4bc6e8dec")
 	)
+	(label "CAN_P"
+		(at 50.8 114.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f36d8154-df0e-4e0a-980a-3e683bb72776")
+	)
 	(label "SPI2_SCK"
 		(at 259.08 139.7 0)
 		(effects
@@ -4890,16 +4900,6 @@
 			(justify left bottom)
 		)
 		(uuid "f7686396-1a4f-4b13-9dec-7defdd0827f4")
-	)
-	(label "CAN_L"
-		(at 50.8 144.78 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f94be128-6913-453c-bae2-64b5350984e7")
 	)
 	(label "I2C_SDA"
 		(at 208.28 67.31 0)
@@ -5233,6 +5233,84 @@
 			(project "CarrierBoard"
 				(path "/caaf916b-17a0-49cc-ac37-a3c594d52848"
 					(reference "#PWR12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 261.62 97.79 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1fd86d75-039d-488e-90ca-a481d056421d")
+		(property "Reference" "#PWR026"
+			(at 261.62 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 261.62 92.71 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 261.62 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 261.62 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 261.62 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6370cb43-f3c1-4fc1-b821-217b80b49730")
+		)
+		(instances
+			(project "CarrierBoard"
+				(path "/caaf916b-17a0-49cc-ac37-a3c594d52848"
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -6074,6 +6152,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 261.62 129.54 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5c8de4e0-b7e2-4d7b-a2fc-3e96d5fd5f6f")
+		(property "Reference" "#PWR028"
+			(at 261.62 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 261.62 124.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 261.62 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 261.62 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 261.62 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1ac33c2b-7c73-451b-b113-6e3f51e21fda")
+		)
+		(instances
+			(project "CarrierBoard"
+				(path "/caaf916b-17a0-49cc-ac37-a3c594d52848"
+					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 53.34 149.86 0)
 		(unit 1)
@@ -6661,84 +6817,6 @@
 			(project "CarrierBoard"
 				(path "/caaf916b-17a0-49cc-ac37-a3c594d52848"
 					(reference "#PWR8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 261.62 129.54 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "813dbb02-f4c1-4a41-9856-ad0f78c41594")
-		(property "Reference" "#PWR28"
-			(at 261.62 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 261.62 124.46 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 261.62 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 261.62 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 261.62 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d19f59f8-2351-46e9-93fc-d362a6773170")
-		)
-		(instances
-			(project "CarrierBoard"
-				(path "/caaf916b-17a0-49cc-ac37-a3c594d52848"
-					(reference "#PWR28")
 					(unit 1)
 				)
 			)
@@ -7862,7 +7940,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c08cfafa-622b-4459-b01f-7263c2e43f46")
 		(property "Reference" "#PWR031"
 			(at 90.17 41.91 0)
@@ -7875,14 +7952,15 @@
 				)
 			)
 		)
-		(property "Value" "+3.3V"
-			(at 90.17 33.02 0)
+		(property "Value" "+5V"
+			(at 87.63 33.02 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -8047,7 +8125,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "3.3k"
 			(at 101.6 48.2599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8308,84 +8386,6 @@
 			(project "CarrierBoard"
 				(path "/caaf916b-17a0-49cc-ac37-a3c594d52848"
 					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 261.62 97.79 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "da1516b6-4e1b-43b4-8ed3-8aa38f792bab")
-		(property "Reference" "#PWR26"
-			(at 261.62 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 261.62 92.71 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 261.62 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 261.62 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 261.62 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "cc20fe7c-592f-4e4c-8049-d9ba35c87929")
-		)
-		(instances
-			(project "CarrierBoard"
-				(path "/caaf916b-17a0-49cc-ac37-a3c594d52848"
-					(reference "#PWR26")
 					(unit 1)
 				)
 			)
