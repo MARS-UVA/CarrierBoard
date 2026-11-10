@@ -3352,7 +3352,7 @@
 	)
 	(rectangle
 		(start 76.2 25.4)
-		(end 176.53 124.46)
+		(end 176.53 131.318)
 		(stroke
 			(width 0)
 			(type default)
@@ -3418,6 +3418,16 @@
 		)
 		(uuid "b02dde66-0296-46e8-94f0-7e13b6cfbda6")
 	)
+	(text "bypass capacitors\nkeep 0.1u closest to 3v3, then 10u"
+		(exclude_from_sim no)
+		(at 95.758 124.714 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b61ba8e3-5524-4f2f-9a59-0780e5375907")
+	)
 	(text "SPI Connections"
 		(exclude_from_sim no)
 		(at 229.87 25.4 0)
@@ -3428,12 +3438,6 @@
 			(justify left bottom)
 		)
 		(uuid "fbaa0272-5df5-4a10-a8d7-4cebe6732deb")
-	)
-	(junction
-		(at 165.1 43.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "23bc8501-e9fc-46b9-909e-d10f9b9ff4a4")
 	)
 	(junction
 		(at 157.48 106.68)
@@ -3466,10 +3470,10 @@
 		(uuid "81763d66-316f-4aa9-b86e-6f481948173f")
 	)
 	(junction
-		(at 165.1 45.72)
+		(at 165.1 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c24e1e29-e119-497e-990b-e3809db0c7e7")
+		(uuid "ecf5f8d5-7bd1-4454-9d38-97ee691b9781")
 	)
 	(junction
 		(at 90.17 53.34)
@@ -3693,6 +3697,16 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 45.72) (xy 165.1 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08af5990-5b46-45a8-822a-cd96e180a6a3")
+	)
+	(wire
+		(pts
 			(xy 261.62 115.57) (xy 261.62 113.03)
 		)
 		(stroke
@@ -3893,26 +3907,6 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 35.56) (xy 165.1 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "59acd457-540a-4160-87e2-13553a97ed28")
-	)
-	(wire
-		(pts
-			(xy 152.4 43.18) (xy 165.1 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5a953672-5564-4c62-92ed-19a9988c2457")
-	)
-	(wire
-		(pts
 			(xy 210.82 120.65) (xy 210.82 118.11)
 		)
 		(stroke
@@ -3930,6 +3924,16 @@
 			(type default)
 		)
 		(uuid "5d817b50-1174-4bbe-b9df-143acb6b5066")
+	)
+	(wire
+		(pts
+			(xy 165.1 45.72) (xy 165.1 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63630859-b9d4-417b-a8ac-719083cd8c2a")
 	)
 	(wire
 		(pts
@@ -4010,6 +4014,16 @@
 			(type default)
 		)
 		(uuid "77c2ee2e-e07a-43a4-8220-9664c1257091")
+	)
+	(wire
+		(pts
+			(xy 165.1 43.18) (xy 152.4 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "787cc539-3888-4feb-a0c0-0547ad42c40f")
 	)
 	(wire
 		(pts
@@ -4123,16 +4137,6 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 58.42) (xy 165.1 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b2769e04-3934-4885-9d05-c68f93d29f1e")
-	)
-	(wire
-		(pts
 			(xy 50.8 111.76) (xy 53.34 111.76)
 		)
 		(stroke
@@ -4213,26 +4217,6 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 45.72) (xy 165.1 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c883121d-e299-456c-b270-ea9694f294bf")
-	)
-	(wire
-		(pts
-			(xy 165.1 45.72) (xy 165.1 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c8fe9e74-123a-4496-bd78-4acbc55ed322")
-	)
-	(wire
-		(pts
 			(xy 210.82 74.93) (xy 210.82 72.39)
 		)
 		(stroke
@@ -4260,16 +4244,6 @@
 			(type default)
 		)
 		(uuid "cefccf06-2ada-46a4-be91-2ea22c4098bb")
-	)
-	(wire
-		(pts
-			(xy 165.1 45.72) (xy 165.1 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d14553c3-b329-48a2-b0d0-d16707028edb")
 	)
 	(wire
 		(pts
@@ -4433,6 +4407,16 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 35.56) (xy 165.1 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd7f2f0f-4d29-4268-80c1-5d56330b8218")
+	)
+	(wire
+		(pts
 			(xy 157.48 35.56) (xy 157.48 40.64)
 		)
 		(stroke
@@ -4470,6 +4454,16 @@
 			(justify left bottom)
 		)
 		(uuid "07bb4d8b-f701-4a73-99dc-9d1e3dcb8b6b")
+	)
+	(label "CAN_N"
+		(at 50.8 114.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "17dda0f9-7890-4b28-81af-bc102401b770")
 	)
 	(label "SPI2_SCK"
 		(at 259.08 107.95 0)
@@ -4701,16 +4695,6 @@
 		)
 		(uuid "adbd27f3-7df2-4797-9358-cdf4d1af22af")
 	)
-	(label "CAN_N"
-		(at 50.8 116.84 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b1791e3b-ea53-4443-8ba4-84a0d40debd5")
-	)
 	(label "CAN_TX"
 		(at 36.83 45.72 180)
 		(effects
@@ -4740,6 +4724,16 @@
 			(justify right bottom)
 		)
 		(uuid "b59731b2-ebbb-483d-8caa-d81b32868986")
+	)
+	(label "CAN_P"
+		(at 50.8 116.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b7612c85-3d1c-4e8a-a460-d60085f8503d")
 	)
 	(label "SPI2_CS_2"
 		(at 259.08 102.87 0)
@@ -4881,16 +4875,6 @@
 		)
 		(uuid "f20ec9f8-9ffc-4f8d-a6bc-62e4bc6e8dec")
 	)
-	(label "CAN_P"
-		(at 50.8 114.3 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f36d8154-df0e-4e0a-980a-3e683bb72776")
-	)
 	(label "SPI2_SCK"
 		(at 259.08 139.7 0)
 		(effects
@@ -5012,7 +4996,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "4.7k"
 			(at 92.71 48.2599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5077,6 +5061,84 @@
 			(project "CarrierBoard"
 				(path "/caaf916b-17a0-49cc-ac37-a3c594d52848"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 83.82 114.3 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1623a721-efb8-4e33-9529-eb9054260bc3")
+		(property "Reference" "#PWR030"
+			(at 83.82 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 83.82 119.38 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 83.82 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.82 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 83.82 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cec90bc1-bdcf-4358-ad68-fca65b89c648")
+		)
+		(instances
+			(project "CarrierBoard"
+				(path "/caaf916b-17a0-49cc-ac37-a3c594d52848"
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -5233,6 +5295,84 @@
 			(project "CarrierBoard"
 				(path "/caaf916b-17a0-49cc-ac37-a3c594d52848"
 					(reference "#PWR12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 83.82 106.68 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1a447551-a183-43a3-ad37-360fb3bde031")
+		(property "Reference" "#PWR032"
+			(at 83.82 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 83.82 101.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 83.82 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.82 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 83.82 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ffe41909-9686-4ac3-8e73-e86434af2993")
+		)
+		(instances
+			(project "CarrierBoard"
+				(path "/caaf916b-17a0-49cc-ac37-a3c594d52848"
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -5405,6 +5545,84 @@
 			(project "CarrierBoard"
 				(path "/caaf916b-17a0-49cc-ac37-a3c594d52848"
 					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 97.79 114.3 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2da972c2-77c6-4fb2-af2b-e692f6600c2d")
+		(property "Reference" "#PWR034"
+			(at 97.79 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 97.79 119.38 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 97.79 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 97.79 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 97.79 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bc523a24-d5f0-46b7-a8ff-6319adee6999")
+		)
+		(instances
+			(project "CarrierBoard"
+				(path "/caaf916b-17a0-49cc-ac37-a3c594d52848"
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -5896,6 +6114,84 @@
 			(project "CarrierBoard"
 				(path "/caaf916b-17a0-49cc-ac37-a3c594d52848"
 					(reference "#PWR4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 97.79 106.68 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "51ec7ef7-86ee-49ac-bab1-b25647982905")
+		(property "Reference" "#PWR033"
+			(at 97.79 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 97.79 101.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 97.79 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 97.79 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 97.79 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "68fabc94-c800-4ab5-9106-553d5c5c7a57")
+		)
+		(instances
+			(project "CarrierBoard"
+				(path "/caaf916b-17a0-49cc-ac37-a3c594d52848"
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -6558,99 +6854,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 165.1 52.07 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7cad740b-73a9-4f50-8e2e-0309b7c256ef")
-		(property "Reference" "C1"
-			(at 168.91 50.7999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10 µF"
-			(at 168.91 53.3399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 166.0652 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/taiyo-yuden/LMK107BBJ106MALT/3662195"
-			(at 165.1 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "10 µF ±20% 10V Ceramic Capacitor X5R 0603 (1608 Metric)"
-			(at 165.1 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part Number" "LMK107BBJ106MALT"
-			(at 165.1 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "86f5ae59-d5f5-40d8-ac91-91e8a111c981")
-		)
-		(pin "1"
-			(uuid "b7668e66-534a-47f1-8ff2-7a1603dea017")
-		)
-		(instances
-			(project "CarrierBoard"
-				(path "/caaf916b-17a0-49cc-ac37-a3c594d52848"
-					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "CarrierBoard:5600200420")
 		(at 50.8 83.82 0)
 		(mirror y)
@@ -7096,6 +7299,99 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 83.82 110.49 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9596839d-5b4a-435b-af08-c70ac49e68fb")
+		(property "Reference" "C1"
+			(at 87.63 109.2199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 87.63 111.7599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 84.7852 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/taiyo-yuden/LMK107BBJ106MALT/3662195"
+			(at 83.82 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "10 µF ±20% 10V Ceramic Capacitor X5R 0603 (1608 Metric)"
+			(at 83.82 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "LMK107BBJ106MALT"
+			(at 83.82 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "718b5445-cbdc-43d8-8b39-cf619188d339")
+		)
+		(pin "1"
+			(uuid "6ab343ae-8d1f-43ab-ae6b-3a8e8e704a72")
+		)
+		(instances
+			(project "CarrierBoard"
+				(path "/caaf916b-17a0-49cc-ac37-a3c594d52848"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "CarrierBoard:5600200420")
 		(at 50.8 139.7 0)
 		(mirror y)
@@ -7184,84 +7480,6 @@
 			(project "CarrierBoard"
 				(path "/caaf916b-17a0-49cc-ac37-a3c594d52848"
 					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 165.1 58.42 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9b17bd09-2f62-4829-8e15-3c49f9556946")
-		(property "Reference" "#PWR030"
-			(at 165.1 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 165.1 63.5 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 165.1 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 165.1 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 165.1 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3e5e3608-9ae2-45a6-8d91-94650931ea4d")
-		)
-		(instances
-			(project "CarrierBoard"
-				(path "/caaf916b-17a0-49cc-ac37-a3c594d52848"
-					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -8125,7 +8343,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "3.3k"
+		(property "Value" "4.7k"
 			(at 101.6 48.2599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8743,6 +8961,99 @@
 			(project "CarrierBoard"
 				(path "/caaf916b-17a0-49cc-ac37-a3c594d52848"
 					(reference "#PWR10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 97.79 110.49 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e6ad8999-743d-49c3-9edc-455e8a061686")
+		(property "Reference" "C2"
+			(at 101.6 109.2199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1u"
+			(at 101.6 111.7599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 98.7552 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/taiyo-yuden/LMK107BBJ106MALT/3662195"
+			(at 97.79 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "10 µF ±20% 10V Ceramic Capacitor X5R 0603 (1608 Metric)"
+			(at 97.79 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "LMK107BBJ106MALT"
+			(at 97.79 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "c43fb4a3-da5d-460a-b6d9-4c1138308289")
+		)
+		(pin "1"
+			(uuid "d11086fe-eefb-4a6c-9d82-1e208607b8f4")
+		)
+		(instances
+			(project "CarrierBoard"
+				(path "/caaf916b-17a0-49cc-ac37-a3c594d52848"
+					(reference "C2")
 					(unit 1)
 				)
 			)
