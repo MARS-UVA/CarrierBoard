@@ -6909,7 +6909,7 @@
 			(justify right bottom)
 		)
 	)
-	(gr_text "Carrier Board, MARS at UVA\n11/10/26 Version 1\nRohit Gayali"
+	(gr_text "Carrier Board, MARS at UVA\n11/15/26 Version 1\nRohit Gayali"
 		(at 137.287 150.368 0)
 		(layer "F.SilkS")
 		(uuid "1632ce1b-3202-4d50-b661-b3336e9548a1")
