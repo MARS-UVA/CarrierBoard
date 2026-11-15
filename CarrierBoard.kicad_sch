@@ -4067,7 +4067,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 39.37) (xy 62.23 39.37)
+			(xy 59.69 39.37) (xy 66.04 39.37)
 		)
 		(stroke
 			(width 0)
@@ -4207,7 +4207,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 36.83) (xy 62.23 39.37)
+			(xy 66.04 35.56) (xy 66.04 39.37)
 		)
 		(stroke
 			(width 0)
@@ -6682,84 +6682,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 62.23 36.83 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "738ee279-06da-40ff-bbc2-f765cba97652")
-		(property "Reference" "#PWR9"
-			(at 62.23 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 62.23 31.75 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 62.23 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 62.23 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 62.23 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4bd538a5-57c5-4d5a-81d4-00c44a812920")
-		)
-		(instances
-			(project "CarrierBoard"
-				(path "/caaf916b-17a0-49cc-ac37-a3c594d52848"
-					(reference "#PWR9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "CarrierBoard:5600200420")
 		(at 50.8 167.64 0)
 		(mirror y)
@@ -8149,84 +8071,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 90.17 38.1 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "c08cfafa-622b-4459-b01f-7263c2e43f46")
-		(property "Reference" "#PWR031"
-			(at 90.17 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 87.63 33.02 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 90.17 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 90.17 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 90.17 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c14283e0-bd4c-4c9c-b31c-7663fbef6a33")
-		)
-		(instances
-			(project "CarrierBoard"
-				(path "/caaf916b-17a0-49cc-ac37-a3c594d52848"
-					(reference "#PWR031")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "CarrierBoard:5600200420")
 		(at 208.28 64.77 0)
 		(mirror y)
@@ -8604,6 +8448,84 @@
 			(project "CarrierBoard"
 				(path "/caaf916b-17a0-49cc-ac37-a3c594d52848"
 					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 66.04 35.56 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d8ccff4d-4818-4780-bf98-6bc837cc90ef")
+		(property "Reference" "#PWR035"
+			(at 66.04 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 66.04 30.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 66.04 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c7818919-260d-49bf-bbcd-66250a3118d1")
+		)
+		(instances
+			(project "CarrierBoard"
+				(path "/caaf916b-17a0-49cc-ac37-a3c594d52848"
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -9054,6 +8976,84 @@
 			(project "CarrierBoard"
 				(path "/caaf916b-17a0-49cc-ac37-a3c594d52848"
 					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 90.17 38.1 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ea530d8f-2006-452d-8a8a-ee88fe754ff3")
+		(property "Reference" "#PWR031"
+			(at 90.17 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 90.17 33.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 90.17 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 90.17 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 90.17 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bd59d0ef-fc01-4764-8d37-f51b730d3173")
+		)
+		(instances
+			(project "CarrierBoard"
+				(path "/caaf916b-17a0-49cc-ac37-a3c594d52848"
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
