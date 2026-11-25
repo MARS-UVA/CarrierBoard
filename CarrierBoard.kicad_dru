@@ -9,8 +9,8 @@
 	(constraint hole_to_hole (min 0.2032mm))
 )
 (rule "Via style"
-	(constraint via_diameter (min 0.635mm) (max 6.4008mm))
-	(constraint hole_size (min 0.3556mm) (max 6.4008mm))
+	(constraint via_diameter (min 0.5842mm) (max 6.4008mm))
+	(constraint hole_size (min 0.2794mm) (max 6.4008mm))
 )
 (rule "Routing width 1"
 	(constraint track_width (min 0.2032mm) (opt 0.2032mm) (max 0.2032mm))
